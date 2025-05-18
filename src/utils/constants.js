@@ -28,6 +28,7 @@ export const ACTIONS = {
   CLEANUP: 'actionEmailCleanup',
   MAILMERGE: 'actionMailMerge',
   SWITCHAPP: 'actionEmailStudio',
+  GEMINI: 'actionGemini',
   SERVICE: 'service',
   KEY: 'action',
   ADD: 'add',
@@ -37,7 +38,9 @@ export const ACTIONS = {
   DELETE: 'delete',
   SHOW: 'show',
   REFRESH: 'refresh',
-  SEARCH: 'search'
+  SEARCH: 'search',
+  DRAFT_REPLY: 'draftReply',
+  ADD_TO_WATCHLIST: 'addToWatchList'
 };
 
 export const SERVICE = {
@@ -47,6 +50,7 @@ export const SERVICE = {
   CLEANUP: 'cleanup',
   MAILMERGE: 'mailmerge',
   DUPLICATE: 'copydraft',
+  GEMINI: 'gemini',
   GMAIL: 'gmail',
   USER: 'user',
   SERVICEROOT: 'services',
@@ -76,5 +80,6 @@ export const EMAIL = {
   FORWARD_TO: 'fwd',
   DRAFT_ID: 'draft',
   ADVANCED: 'advanced',
-  CONTACTS: 'contacts'
+  CONTACTS: 'contacts',
+  THREAD_ID: 'threadId'
 };

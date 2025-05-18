@@ -27,6 +27,9 @@ Auto-sweep emails, archive, delete or move them to different folders based on th
 ### :white_check_mark: Email Unsubscriber
 Automatically **unsubscribe from bulk emails** and mailing lists in Gmail
 
+### :white_check_mark: Gemini Feature
+Draft email replies based on context and add entire threads to the watch list for auto-drafting spot-on replies.
+
 ### :point_right: [Install Email Studio for Gmail](https://emailstudio.pro) :point_left:
 
 At [Digital Inspiration](https://digitalinspiration.com), we build Google add-ons that use the capabilities and the features of GSuite for automating business processes and driving business productivity. Some of our popular add-ons include:

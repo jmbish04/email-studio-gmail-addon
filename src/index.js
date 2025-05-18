@@ -8,6 +8,7 @@ import actionEmailCleanup from './cleanup/actions';
 import actionEmailResponder from './responder/actions';
 import actionEmailScheduler from './scheduler/actions';
 import { createGmailAuthUi, actionLogin, actionCheckAccess } from './ui/auth';
+import actionGemini from './gemini/actions';
 
 /* Main Screen */
 global.buildAddOn = buildAddOn;
@@ -20,6 +21,7 @@ global.actionEmailCleanup = actionEmailCleanup;
 global.actionEmailResponder = actionEmailResponder;
 global.actionEmailStudio = actionEmailStudio;
 global.actionEmailScheduler = actionEmailScheduler;
+global.actionGemini = actionGemini;
 
 /* Gmail Authorization */
 global.actionCheckAccess = actionCheckAccess;
